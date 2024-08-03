@@ -4,6 +4,7 @@ Python bleak terminal
 Python script made to interact with LEGO Technic Move hub. Credits goes to Chat GPT.
 
 Example usage - changing hub LED status light color:
+```
 python bleak-terminal.py
 Found devices:
 0: Technic Move   (34:68:B5:1C:BD:3E)
@@ -26,3 +27,4 @@ Enter data to write (in hex): 0800813F11510002
 Data written
 Enter command (read/write/exit): exit
 Disconnected
+```
